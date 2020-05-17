@@ -15,6 +15,7 @@ function Entry(element) {
       
     row.rear.next = person; 
     row.rear = row.rear.next;
+    console.log('test');
   } 
 } 
 
